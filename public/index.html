@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <link 
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+        crossorigin="anonymous">
+    <title>Chat app</title>
+</head>
+<body>
+    <div class="join-container">
+        <header class="join-header">
+            <h1><i class="fas fa-smile"></i>Doomer-Chat</h1>
+        </header>
+        <main class="join-main">
+            <form action="chat.html">
+
+                <div class="form-control">
+                    <label for="username">
+                        Username
+                    </label>
+                    <input type="text" name="username" id="username" placeholder="enter username" required />
+                </div>
+
+                <div class="form-control">
+                    <label for="room">Room</label>
+                    <select name="room" id="room">
+                        <option value="Doomer">Doomer</option>
+                        <option value="Boomer">Boomer</option>
+                        <option value="Zoomer">Zoomer</option>
+                        <option value="Doomer-girl">Doomer-girl</option>
+                        <option value="Boomer-girl">Boomer-girl</option>
+                        <option value="Zoomer-girl">Zoomer-girl</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Join chat</button>
+            </form>
+        </main>
+    </div>
+    
+</body>
+</html>
